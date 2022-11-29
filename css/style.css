@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    padding: 5px;
+    margin: 5px;
+  }
+
+/*HEADER*/
+
+header {
+    color: white;
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #3f5efb, #fc466b) 1;
+    border-radius: 10px;
+    background-color: black; }
+  
+  .navbar-brand {
+    color: #46fbfc;
+    font-size: 4vw;
+    font-weight: bold; }
+    .navbar-brand:hover {
+      color: #46fbfc; }
+  
+  .navbar {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-bottom: 15px;
+    text-decoration: none;
+    flex-grow: 1;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 30px; }
+  
+  .navbar-nav {
+    display: flex;
+    color: white;
+    justify-content: right;
+    text-decoration: none;
+    flex-grow: 1; }
+    .navbar-nav .nav-link {
+      color: white;
+      font-size: 2vw;
+      padding: 0 2rem; }
+    .navbar-nav .home:hover {
+      border: 3px solid;
+      border-image: linear-gradient(45deg, #3f5efb, #fc466b) 1;
+      box-shadow: 3px 3px white; }
+    .navbar-nav .ps5:hover {
+      border: 3px solid blue;
+      box-shadow: 3px 3px white; }
+    .navbar-nav .xbox:hover {
+      border: 3px solid green;
+      
+      box-shadow: 3px 3px white; }
+    .navbar-nav .nin:hover {
+      border: 3px solid red;
+      
+      box-shadow: 3px 3px white; }
+
+      .navbar-nav .ctc:hover {
+        border: 3px solid #46fbfc;
+        
+        box-shadow: 3px 3px white; }
+  
+  .navbar-toggler {
+    color: white;
+    background-color: white; }
+  
+
+/********************BODY******************/
+
+.mainPic {
+  width: 100%;
+}
+
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #3f5efb, #fc466b) 1;
+    border-radius: 10px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;}
+    .footer .footlog {
+      width: 10%;
+      height: 30%; }
+  
+  .tituloFooter {
+    color: #46fbfc;
+    font-size: 4vh;
+    font-weight: bold; }
+
+
+    #nombre, #apellido, #ingresar {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+
+    }
